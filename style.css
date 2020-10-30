@@ -1,4 +1,6 @@
-  
+  body{
+    background:black;
+  }
   .gallery > .gallery__list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -14,7 +16,7 @@
   
   .gallery > .gallery__list > li:nth-child(8n) {
     grid-column: span 3;
-    grid-row: span 3;
+    grid-row:3 span;
   }
   
   .gallery > .gallery__list > li > figure {
